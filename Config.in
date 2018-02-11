@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_GPORTAY_PATH/package/blkpg-part/Config.in"
