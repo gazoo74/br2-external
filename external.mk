@@ -8,3 +8,7 @@ update-wpa-supplicant:
 	fi
 
 target-finalize: update-wpa-supplicant
+
+.PHONY: rmbuild
+rmbuild:
+	rm -rf $(BUILD_DIR)/*/*
